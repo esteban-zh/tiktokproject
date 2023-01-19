@@ -1,0 +1,48 @@
+.actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 30%;
+    right: 20px;
+}
+.actions--img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.actions--item{
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 14px;
+}
+.actions--item span{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    font-size: 15px;
+    color: white;
+    align-items: center;
+    background: red;
+    display: flex;
+    justify-content: center;
+}
+
+.actions--item button{
+    font-size: 30px;
+    color: white;
+}
+.actions--item button:hover{
+    color: red;
+}
+.actions--number{
+    margin: 5px 0;
+}
