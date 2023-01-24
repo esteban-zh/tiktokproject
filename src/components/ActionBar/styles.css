@@ -40,7 +40,8 @@
     font-size: 30px;
     color: white;
 }
-.actions--item button:hover{
+
+.active{
     color: red;
 }
 .actions--number{

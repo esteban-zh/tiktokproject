@@ -1,0 +1,29 @@
+.profileBar{
+    padding-top: 15px;
+}
+.profileBar img{
+    border-radius: 50%;
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.profileBar--list{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.profileBar--list li{
+    margin: 15px;
+}
+
+.profileBar--list .profileBar--paragraph__semibold{
+    font-weight: 400;
+    margin: 10px;
+}
+.profileBar--list .profileBar--paragraph__bold{
+    font-weight: 700;
+}

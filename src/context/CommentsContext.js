@@ -5,8 +5,8 @@ export const CommentsContext = createContext({})
 export const CommentsContextProvider = ({ children }) =>{
     const [currentCommentsState, toggleComments] = useState(false)
     return (
-        <CommentsContextProvider value={{currentCommentsState, toggleComments}}>
+        <CommentsContext.Provider value={{currentCommentsState, toggleComments}}>
             {children}
-        </CommentsContextProvider>
+        </CommentsContext.Provider>
     )
 }
