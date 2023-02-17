@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/tiktokproject/static/css/main.984c99b1.css",
+    "main.js": "/tiktokproject/static/js/main.e522f16b.js",
+    "static/media/Big_Buck_Bunny_240_10s_10MB.mp4": "/tiktokproject/static/media/Big_Buck_Bunny_240_10s_10MB.ab4e7c8122329ed74590.mp4",
+    "index.html": "/tiktokproject/index.html",
+    "main.984c99b1.css.map": "/tiktokproject/static/css/main.984c99b1.css.map",
+    "main.e522f16b.js.map": "/tiktokproject/static/js/main.e522f16b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.984c99b1.css",
+    "static/js/main.e522f16b.js"
+  ]
+}
