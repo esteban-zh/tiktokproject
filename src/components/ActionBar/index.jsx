@@ -7,8 +7,10 @@ import "./styles.css"
 export const ActionBar = ({ profileImg, likesCount, commentsCount, sharesCount}) => {
   const {toggleComments}= useContext(CommentsContext)
   const [ likes, setLikes] = useState(likesCount)
-  const [ comments ] = useState(commentsCount)
-  const [ shares] = useState(sharesCount)
+//   const [ comments, setComments] = useState(commentsCount)
+//   const [ shares, setShares] = useState(sharesCount)
+  const comments = commentsCount;
+  const shares = sharesCount;
 
   const handleLike = (e) => {
     e.preventDefault();
